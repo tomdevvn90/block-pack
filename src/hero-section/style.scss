@@ -1,0 +1,10 @@
+.mask-layer-mobile {
+  height: 300px;
+
+  .__mask-image,
+  .__mask-decor {
+    mask-size: contain;
+    mask-position: center;
+    height: 300px;
+  }
+}

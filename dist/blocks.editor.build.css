@@ -1,0 +1,100 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.entry-content .alignwide {
+  margin-left: -80px;
+  margin-right: -80px; }
+
+.entry-content .alignfull {
+  margin-left: calc( -100vw / 2 + 100% / 2);
+  margin-right: calc( -100vw / 2 + 100% / 2);
+  max-width: 100vw; }
+
+.alignfull img {
+  width: 100vw; }
+
+.fieldset-in-panelbody {
+  padding: 5px 10px 0;
+  border: solid 1px;
+  margin-bottom: 15px; }
+
+.block-container {
+  width: 980px;
+  max-width: calc(100% - 30px);
+  margin: 0 auto; }
+
+.block-pack--hero-section {
+  margin-bottom: 35px;
+  overflow: hidden; }
+  .block-pack--hero-section .__grid-dots-layer {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 30vw;
+    height: 30vw;
+    opacity: .1; }
+    .block-pack--hero-section .__grid-dots-layer svg {
+      width: 100%;
+      height: 100%; }
+  .block-pack--hero-section .hero-image-layer {
+    position: absolute;
+    right: -15%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 60%;
+    height: 100%; }
+    .block-pack--hero-section .hero-image-layer .__mask-layer-decor,
+    .block-pack--hero-section .hero-image-layer .__mask-layer-image {
+      width: 100%;
+      height: 100%; }
+    .block-pack--hero-section .hero-image-layer .__mask-layer-image {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .block-pack--hero-section .hero-image-layer .__mask-layer-decor {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-mask-image: url(../images/image-mask.svg);
+      mask-image: url(../images/image-mask.svg);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-position: left;
+      mask-position: left;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      -ms-transform: scale(1.01) rotate(-5deg);
+          transform: scale(1.01) rotate(-5deg);
+      -webkit-transform: scale(1.01) rotate(-5deg); }
+    .block-pack--hero-section .hero-image-layer .__mask-layer-image {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-mask-image: url(../images/image-mask.svg);
+      mask-image: url(../images/image-mask.svg);
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-position: left;
+      mask-position: left;
+      -webkit-mask-size: contain;
+      mask-size: contain; }
+  .block-pack--hero-section .hero-entry-summary {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 35vh 0 25vh; }
+    .block-pack--hero-section .hero-entry-summary .hero-info,
+    .block-pack--hero-section .hero-entry-summary .hero-empty {
+      width: 45%; }
+    .block-pack--hero-section .hero-entry-summary .cta-entry > a {
+      margin-right: 15px; }
